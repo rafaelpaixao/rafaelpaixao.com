@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: "2019-07-24T00:34:00.000"
+description: "First post!"
 ---
 
 Hey everybody! Trying React & Gatsby through (finally) starting a blog.
