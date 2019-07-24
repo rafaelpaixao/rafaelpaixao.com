@@ -1,21 +1,25 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-07-24T00:34:00.000"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Hey everybody! Trying React & Gatsby through (finally) starting a blog.
+How exciting!
 
-I'm sure I'll write a lot more interesting things in the future.
+It's late and I'm not going to make any promises, but try to keep an eye on it!
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Meanwhile, here's a great quote from Joel Spolsky's  
+[Things You Should Never Do, Part I](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/).
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+> The idea that new code is better than old is patently absurd.
+> Old code has been used. It has been tested. Lots of bugs have
+> been found, and they’ve been fixed. There’s nothing wrong with it.
+> It doesn’t acquire bugs just by sitting around on your hard drive.
+> Au contraire, baby! Is software supposed to be like an old Dodge
+> Dart, that rusts just sitting in the garage? Is software like a
+> teddy bear that’s kind of gross if it’s not made out of all new material?
 
-![Chinese Salty Egg](./salty_egg.jpg)
+And a Gilbert's cartoon on the same subject.
+
+
+![Dilbert Cartoon](./dilbert.gif)
