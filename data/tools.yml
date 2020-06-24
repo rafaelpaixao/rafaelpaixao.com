@@ -1,0 +1,23 @@
+tools:
+- title: Development
+  tool:
+  - name: Code2Flow
+    description: Gerador de fluxograma que aceita pseudo-código.
+    image: "/images/tools/Code2Flow.gif"
+    link: hhttps://code2flow.com
+
+- title: Design
+  tool:
+  - name: DaVinci Resolve
+    description: Edição e pós-produção de vídeo e áudio.
+    image: "/images/tools/DaVinciResolve.jpg"
+    link: https://www.blackmagicdesign.com/br/products/davinciresolve/
+
+- title: Productivity
+  tool:
+  - name: GhostWriter
+    image: "/images/tools/GhostWriter.png"
+    link: https://wereturtle.github.io/ghostwriter
+  - name: Lightshot
+    image: "/images/tools/Lightshot.jpg"
+    link: https://app.prntscr.com
