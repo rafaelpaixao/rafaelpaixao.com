@@ -1,110 +1,150 @@
 baseURL = "https://rafaelpaixao.com/"
-languageCode = "en-us"
-title = "Rafael Paixão"
 theme = "northendlab"
 paginate = "5"
 summaryLength = "10"
 disqusShortname = "rafaelpaixao"
+DefaultContentLanguage = "pt"
+title = "Rafael Paixão"
+languageCode = "pt-br"
 
-# css plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-
-# js plugins
-[[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-
-########################### Navigation ###################################
-
-# main menu
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "Tools"
-weight = 2
-
-# footer menu
+  URL = "contact"
+  name = "Contato"
+  weight = 1
+[[menu.main]]
+  URL = "tools"
+  name = "Ferramentas"
+  weight = 2
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
+  URL = "contact"
+  name = "Contato"
+  weight = 1
 [[menu.footer]]
-URL = "tools"
-name = "Tools"
-weight = 2
+  URL = "tools"
+  name = "Ferramentas"
+  weight = 2
 
-######################### Default Parameters ###########################
+
 [params]
-# home
-home = "Home"
-# logo
-logo = "images/logo.svg"
-# meta data
-author = "Rafael Paixão"
-description = "This is meta description"
-# google tag manager
-google_tag_manager = "" # your id
-# google analitycs ID
-google_analitycs_id = "UA-96114281-7" # your id
-# contact form action
-contact_form_action = "https://formspree.io/mpzylnea" # contact form works with : https://formspree.io
-# copyright
-copyright = "&copy; 2020 [Rafael Paixão](https://rafaelpaixao.com) All Rights Reserved"
+  home = "Início"
+  logo = "images/logo.svg"
+  
+  author = "Rafael Paixão"
+  description = "Blog de Rafael Paixão sobre programação e outras coisas"
+  copyright = "&copy; 2020 [Rafael Paixão](https://rafaelpaixao.com) Todos os direitos reservados"
 
-# preloader
-[params.preloader]
-enable = true
-preloader = "" # use png, jpg, svg or gif format
+  # google_tag_manager = ""
+  google_analitycs_id = "UA-96114281-7"
+  contact_form_action = "https://formspree.io/mpzylnea"
 
-# search
-[params.search]
-enable = true
+  [[params.plugins.css]]
+    link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+    link = "plugins/themify-icons/themify-icons.css"
+
+  [[params.plugins.js]]
+    link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+    link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+    link = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+    link = "plugins/search/mark.js"
+  [[params.plugins.js]]
+    link = "plugins/search/search.js"
+
+  [params.preloader]
+    enable = true
+    preloader = "" # use png, jpg, svg or gif format
+  [params.search]
+    enable = true
+    placeholder = "Digite e pressione enter..."
+    title = "Resultados da busca para "
+
+  [params.banner]
+    title = "Oi, sou Rafael Paixão. <br> Desenvolvedor Web em Vitória, Brasil."
+    bgImage = "images/banner/banner-bg.svg"
+    image = "images/banner/illustration.svg"
+
+  # SOCIAL LINKS ON FOOTER
+  # themify icon pack https://themify.me/themify-icons
+  [[params.social]]
+    icon = "ti-twitter-alt"
+    link = "https://twitter.com/raelpx"
+  [[params.social]]
+    icon = "ti-github"
+    link = "https://github.com/rafaelpaixao"
+  [[params.social]]
+    icon = "ti-linkedin"
+    link = "https://www.linkedin.com/in/raelpx/"
+  # [[params.social]]
+  #   icon = "ti-facebook"
+  #   link = "#"
 
 
-####################### banner #######################################
-[params.banner]
-bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Rafael Paixão. <br> Web developer from Vitória, Brazil."
-image = "images/banner/illustration.svg"
+  # CALL TO ACTION
+  # [params.cta]
+  #   enable = true
+  #   image = "images/hugo-muscot.svg"
+  #   title = "Get the best hugo templates"
+  #   description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+  # [params.cta.button]
+  #     enable = true
+  #     label = "Visit Here"
+  #     link = "https://gethugothemes.com/shop/"
+
+  [params.terms]
+    Categories = "Categorias"
+    PostByAuthor = "Posts do autor"
+    ReadIn = "Read in english"
+    ReadMore = "Leia mais"
+    ShowingPostsFromCategory = "Exibindo posts da categoria "
+    VisitSite = "Visite o site"
 
 
-######################## call to action ###############################
-# [params.cta]
-# enable = true
-# image = "images/hugo-muscot.svg"
-# title = "Get the best hugo templates"
-# description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-# [params.cta.button]
-# enable = true
-# label = "Visit Here"
-# link = "https://gethugothemes.com/shop/"
+[languages]
 
+  [languages.pt]
+    weight = 1
+    LanguageName = "Português"
 
-############################## Social Site ##########################
-# [[params.social]]
-# icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-# link = "#"
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "https://twitter.com/raelpx"
-[[params.social]]
-icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "https://github.com/rafaelpaixao"
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/raelpx/"
+  [languages.en]
+    weight = 2
+    languageCode = "en-us"
+    LanguageName = "English"
+    home = "Home"
+
+    [[languages.en.menu.main]]
+      URL = "contact"
+      name = "Contact"
+    [[languages.en.menu.main]]
+      URL = "tools"
+      name = "Tools"
+    [[languages.en.menu.footer]]
+      URL = "contact"
+      name = "Contact"
+    [[languages.en.menu.footer]]
+      URL = "tools"
+      name = "Tools"
+
+    [languages.en.params]
+      description = "Rafael Paixão on programming and other things"
+      copyright = "&copy; 2020 [Rafael Paixão](https://rafaelpaixao.com) All Rights Reserved"
+
+      [languages.en.params.banner]
+        title = "Hi, I'm Rafael Paixão. <br> Web developer from Vitória, Brazil."
+        bgImage = "images/banner/banner-bg.svg"
+        image = "images/banner/illustration.svg"
+      [languages.en.params.search]
+        enable = true
+        placeholder = "Type & Hit Enter..."
+        title = "Search result for"
+      [languages.en.params.terms]
+        Categories = "Categories"
+        PostByAuthor = "Post by author"
+        ReadIn = "Leia em português:"
+        ReadMore = "Read more"
+        ShowingPostsFromCategory = "Showing posts from category "
+        VisitSite = "Visit Site"
+        
